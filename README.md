@@ -12,7 +12,7 @@ Where 'newsletter' = 1: for filtering only opt-in clients
 o.date_add BETWEEN DATE_SUB(NOW(), INTERVAL 15 DAY) AND NOW(): ordered in the past 15 days
 
 newsletterWhole.SQL  
-Retrieves data from customers that signed to the newsletter via the account creation or the newsletter footer addon.
+Retrieves data from customers that signed to the newsletter via the account creation or the newsletter footer addon. Has last order date information and number of orders for each client
 
 orderReferencesWeight.SQL  
 For exporting orders with number references and weights. Useful for checking carrier's billing
