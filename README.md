@@ -13,3 +13,6 @@ o.date_add BETWEEN DATE_SUB(NOW(), INTERVAL 15 DAY) AND NOW(): ordered in the pa
 
 newsletterWhole.SQL
 Retrieves data from customers that signed to the newsletter via the account creation or the newsletter footer addon.
+
+orderReferencesWeight.SQL
+For exporting orders with number references and weights. Useful for checking carrier's billing
